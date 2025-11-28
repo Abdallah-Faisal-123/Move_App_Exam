@@ -1,0 +1,168 @@
+body {
+    background-color: #0D0D0D;
+    color: #f9f6f6 !important;
+    overflow: hidden;
+}
+
+.nav-tab {
+    background-color: #0D0D0D;
+}
+
+.logo {
+    width: 50px;
+}
+
+i {
+    cursor: pointer;
+}
+
+.meal-layer {
+    width: 100%;
+    height: 100%;
+    background-color: #000000a9;
+    top: 100%;
+    transition: .5s;
+    color: white !important;
+    text-align: start;
+    position: relative;
+    backdrop-filter: blur(4px);
+}
+
+.meal img {
+    transition: 500ms;
+}
+
+.meal:hover img {
+    transform: scale(1.2) rotate(6deg);
+}
+
+.meal-layer h3 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.2;
+    display: vertical;
+    position: absolute;
+    top: 0px;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.meal-layer p {
+    position: absolute;
+    top: 0;
+    margin-top: 85px;
+    width: auto;
+    max-height: 150px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+
+p.relase {
+    transform: translateY(200px);
+
+}
+
+p.rating {
+    transform: translateY(250px);
+    border: solid green;
+
+}
+
+
+.meal:hover .meal-layer {
+    top: 0;
+}
+
+.side-nav-menu {
+    z-index: 99;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.alert {
+    width: fit-content;
+}
+
+.loading-screen {
+    z-index: 999;
+    display: flex;
+}
+
+.inner-loading-screen {
+    position: absolute;
+    z-index: 9;
+    background-color: #0D0D0D;
+    display: flex;
+}
+
+li {
+    transition: 500ms;
+}
+
+li:hover {
+    color: red;
+}
+
+.search {
+    border: 2px solid white;
+    margin-top: 50px;
+
+}
+
+div.contact .form-control {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0;
+    background-color: #0D0D0D;
+}
+
+div.contact button {
+    background-color: black;
+    transition: 500ms;
+    color: white;
+    border: none;
+}
+
+div.contact button:hover {
+    background-color: white;
+    color: black;
+}
+
+.logo {
+    width: 29px;
+    transition: 500ms;
+}
+
+.nav-header {
+    transition: 500ms;
+}
+
+@media (max-width: 768px) {
+    .nav-header {
+        background-color: rgba(0, 0, 0, 0.014) !important;
+
+    }
+
+    .nav-header .open-close-icon {
+        color: white;
+        margin-top: 370px;
+    }
+
+    .logo,
+    .i {
+        display: none;
+
+    }
+
+}
+
+
+.open-close-icon {
+    z-index: 1000;
+    cursor: pointer;
+}
